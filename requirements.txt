@@ -1,0 +1,11 @@
+# Web UI
+gradio>=4.44.0
+
+# Telegram Bot
+python-telegram-bot>=21.0
+
+# 設定檔讀寫
+PyYAML>=6.0
+
+# Hermes Agent（AIAgent / run_agent）
+git+https://github.com/NousResearch/hermes-agent.git

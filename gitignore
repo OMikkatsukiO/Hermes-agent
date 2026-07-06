@@ -1,0 +1,44 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---- 虛擬環境 ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- 環境變數 / 金鑰（務必不要上傳）----
+.env
+.env.*
+*.pem
+*.key
+
+# ---- 本程式執行時產生的資料 ----
+chat_history/
+*.json
+*.csv
+
+# ---- Hermes 設定檔（含使用者本機路徑，不應進版控）----
+.hermes/
+
+# ---- Gradio 暫存檔 ----
+gradio_cached_examples/
+flagged/
+.gradio/
+
+# ---- 編輯器 / 系統 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- Log ----
+*.log
